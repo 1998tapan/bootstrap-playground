@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid g-0">
+        <header class="row sticky-top">
+            <header class="col-12">
+                <h1 class="display-3 text-center text-white bg-dark glutter pt-3 mb-0">Bootstrap Playground <svg
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                        class="bi bi-code-slash" viewBox="0 0 16 16">
+                        <path
+                            d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+                    </svg></h1>
+            </header>
+            <nav class="navbar navbar-dark navbar-expand-lg bg-dark px-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">DABRAI <svg xmlns="http://www.w3.org/2000/svg" width="1em"
+                            height="1em" fill="currentColor" class="bi bi-tsunami" viewBox="0 0 16 16">
+                            <path
+                                d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65zm0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65zM2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.878 1.878 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5a.493.493 0 0 1 .034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495-.426-.42-1.19-.77-2.477-.77-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13z" />
+                        </svg></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">About Us</a>
+                        </div>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="content" class="row mt-2 p-0">
+            <div class="col-md-2">
+                <img src="https://images.unsplash.com/photo-1672339040081-7c139055ada6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    class="img-fluid m-2" />
+            </div>
+            <section class="col-md-8 col-sm-10">
+                <div class="container-fluid px-0">
+                    <h3 class="display-6">2023 has arrived !! <span class="badge bg-secondary rounded-pill">New</span>
+                    </h3>
+                    <blockquote class="blockquote bg-light">
+                        <p>I lived in books more than I lived anywhere else.</p>
+                    </blockquote>
+                    <div class="blockquote-footer bg-light">Neil Gaiman</div>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat est vel
+                        sem accumsan ullamcorper. Donec odio magna, aliquet lobortis ullamcorper et, lacinia at ligula.
+                        Curabitur dictum, elit non ultrices laoreet, urna enim commodo lacus, vitae maximus velit quam
+                        id lectus. Vestibulum ac sagittis erat. Sed ac diam neque. Phasellus dignissim fermentum enim,
+                        nec pharetra mauris cursus non. Donec tincidunt nulla pharetra ligula vehicula, vel varius enim
+                        lobortis.
+                    </p>
+                    <h3 class="display-6">2023 is arriving !! <span class="badge bg-secondary rounded-pill">New</span>
+                    </h3>
+                    <blockquote class="blockquote bg-light">
+                        <p>I lived in books more than I lived anywhere else.</p>
+                    </blockquote>
+                    <div class="blockquote-footer bg-light">Neil Gaiman</div>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat est vel
+                        sem accumsan ullamcorper. Donec odio magna, aliquet lobortis ullamcorper et, lacinia at ligula.
+                        Curabitur dictum, elit non ultrices laoreet, urna enim commodo lacus, vitae maximus velit quam
+                        id lectus. Vestibulum ac sagittis erat. Sed ac diam neque. Phasellus dignissim fermentum enim,
+                        nec pharetra mauris cursus non. Donec tincidunt nulla pharetra ligula vehicula, vel varius enim
+                        lobortis.
+                    </p>
+                    <h3 class="display-6">2023 is arriving !! <span class="badge bg-secondary rounded-pill">New</span>
+                    </h3>
+                    <blockquote class="blockquote bg-light">
+                        <p>I lived in books more than I lived anywhere else.</p>
+                    </blockquote>
+                    <div class="blockquote-footer bg-light">Neil Gaiman</div>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat est vel
+                        sem accumsan ullamcorper. Donec odio magna, aliquet lobortis ullamcorper et, lacinia at ligula.
+                        Curabitur dictum, elit non ultrices laoreet, urna enim commodo lacus, vitae maximus velit quam
+                        id lectus. Vestibulum ac sagittis erat. Sed ac diam neque. Phasellus dignissim fermentum enim,
+                        nec pharetra mauris cursus non. Donec tincidunt nulla pharetra ligula vehicula, vel varius enim
+                        lobortis.
+                    </p>
+                </div>
+            </section>
+            <section class="col-md-2 float-md-right d-xs-none d-md-block ps-0">
+                <div class="position-fixed">
+                    <p class="fs-5 mb-1">Reach Out to US !!</p>
+                    <form action="www.google.com" class="pe-3">
+                        <div class="row g-1">
+                            <div class="form-floating mb-2 col-6 col-md-12">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="name@example.com">
+                                <label for="email" class="form-label">Email</label>
+                            </div>
+                            <div class="form-floating mb-2 col-6 col-md-12">
+                                <select id="query" name="query" class="form-select">
+                                    <option value="CO">Comments</option>
+                                    <option value="QY">Query</option>
+                                    <option value="SG">Suggestions</option>
+                                </select>
+                                <label for="query" class="form-label">What's on your mind?</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="message"
+                                    style="height: 100px"></textarea>
+                                <label for="message" class="form-label">Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-dark">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
